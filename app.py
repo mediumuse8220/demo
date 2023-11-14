@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/no')
 def hello_world():
     return jsonify({"message": "Hello, Azure Flask App!"})
 
