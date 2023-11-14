@@ -1,1 +1,7 @@
 Flask
+gunicorn
+Pillow
+ultralytics==8.0.200
+waitress
+numpy
+requests
